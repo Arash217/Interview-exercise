@@ -1,0 +1,21 @@
+.image {
+  &--max-width-1200 {
+    max-width: 100%;
+    width: 800px;
+  }
+
+  &--padding-bottom {
+    padding-bottom: 1em;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &--small {
+    height: 40px;
+    width: 40px;
+  }
+}

@@ -1,0 +1,16 @@
+query caseItem($id: ItemId){
+  caseItem(filter: {
+    id: {
+      eq: $id
+    }
+  }) {
+    caseTeaser {
+      image {
+        url
+      }
+      title(locale: nl)
+    }
+    title
+  }
+}
+

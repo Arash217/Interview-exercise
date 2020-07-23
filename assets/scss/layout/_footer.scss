@@ -1,0 +1,18 @@
+@import "../utilities/variables";
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 1.5em;
+  margin-top: 1em;
+  border-top: $lighter-gray;
+  border-top-width: 1px;
+  border-style: solid;
+  flex-shrink: 0;
+  background-color: white;
+
+  &__text {
+    color: $light-gray;
+    font-size: 0.9rem;
+  }
+}

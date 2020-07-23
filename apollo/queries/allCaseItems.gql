@@ -1,0 +1,11 @@
+query {
+  allCaseItems {
+    id
+    title(locale: nl)
+    subtitle(locale: nl)
+    heroIllustration {
+      url
+    }
+  }
+}
+
