@@ -3,6 +3,10 @@
 ## Build Setup
 
 ```bash
+
+# add API key for Dato CMS
+$ create .env file with environment variable: API_TOKEN=XXX
+
 # install dependencies
 $ npm install
 
